@@ -14,11 +14,11 @@ function handleCheck(e) {
             if(checkbox === this || checkbox === lastChecked) {
                 inBetween = !inBetween;
                 console.log('Start or Stop');
-            }
+            };
             
             if(inBetween) {
                 checkbox.checked = true;
-            }
+            };
         });
         
     }
